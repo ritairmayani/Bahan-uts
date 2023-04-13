@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int npm = 47; 
+    int* pointer = &npm;
+
+    cout << "Nilai pointer: " << *pointer << endl;
+    cout << "Alamat variabel npm: " << &npm << endl;
+    
+}

@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+void absen(string nama, int npm){
+	cout << nama << "_" << npm ; 
+}
+
+int main(){
+	string nama;
+	int npm;
+	
+	getline(cin,nama);
+	cin >> npm;
+	
+	absen(nama, npm);
+	
+	return 0;
+}
